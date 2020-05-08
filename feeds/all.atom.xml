@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mister Narayan</title><link href="https://misternarayan.github.io/blog/" rel="alternate"></link><link href="https://misternarayan.github.io/blog/feeds/all.atom.xml" rel="self"></link><id>https://misternarayan.github.io/blog/</id><updated>2020-05-05T15:48:00+05:30</updated><subtitle>Open Source Lover | Software Developer</subtitle><entry><title>Getting started with Pelican</title><link href="https://misternarayan.github.io/blog/getting-started-with-pelican.html" rel="alternate"></link><published>2020-05-05T15:48:00+05:30</published><updated>2020-05-05T15:48:00+05:30</updated><author><name>Shiva Saxena</name></author><id>tag:misternarayan.github.io,2020-05-05:/blog/getting-started-with-pelican.html</id><summary type="html">&lt;p&gt;My first post using Pelican!&lt;/p&gt;</summary><content type="html">&lt;p&gt;Greetings!&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mister Narayan</title><link href="https://misternarayan.github.io/blog/" rel="alternate"></link><link href="https://misternarayan.github.io/blog/feeds/all.atom.xml" rel="self"></link><id>https://misternarayan.github.io/blog/</id><updated>2020-05-07T18:48:00+05:30</updated><subtitle>Open Source Lover | Software Developer</subtitle><entry><title>The Ultimate Vim Configuration</title><link href="https://misternarayan.github.io/blog/found-out-the-ultimate-vim-configurations.html" rel="alternate"></link><published>2020-05-07T18:48:00+05:30</published><updated>2020-05-07T18:48:00+05:30</updated><author><name>Shiva Saxena</name></author><id>tag:misternarayan.github.io,2020-05-07:/blog/found-out-the-ultimate-vim-configurations.html</id><summary type="html">&lt;p&gt;Are you a Vim user, and searching for some awesome tweaks that would make your text editing more efficient and delightful? If yes, then I would like to share with you the ultimate vim configurations that I found out recently.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Greetings!&lt;/p&gt;
+&lt;p&gt;Are you a Vim user, and searching for some awesome tweaks that would make your text editing more efficient and delightful? If yes, then I would like to share with you &lt;a href="https://github.com/amix/vimrc"&gt;The Ultimate Vim Configuration&lt;/a&gt;. The tweaks are so awesome, that I couldn't resist myself from sharing it on the blog.&lt;/p&gt;
+&lt;p&gt;The detailed documentation of the repo is already well written, and if you are a vim user then you can also make some of your custom tweaks if you want. In this, you get the availability of so many plugins at one place, configured optimized, and ease of extendability of your custom tweaks. Along with it, the installation/uninstallation process doesn't take more than 1-2 minutes.&lt;/p&gt;
+&lt;p&gt;After installations, I included some of my custom configurations as follows:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;    &lt;span class="nb"&gt;set&lt;/span&gt; nu
+
+    map &amp;lt;C-m&amp;gt; :tabnext&amp;lt;cr&amp;gt;
+
+    &lt;span class="nb"&gt;let&lt;/span&gt; &lt;span class="nv"&gt;MRU_Open_File_Use_Tabs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;
+
+    &lt;span class="nb"&gt;let&lt;/span&gt; g:ctrlp_prompt_mappings &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+        &lt;span class="se"&gt;\ &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;AcceptSelection(&amp;quot;e&amp;quot;)&amp;#39;&lt;/span&gt;: &lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&amp;lt;2-LeftMouse&amp;gt;&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;,
+        &lt;span class="se"&gt;\ &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;AcceptSelection(&amp;quot;t&amp;quot;)&amp;#39;&lt;/span&gt;: &lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&amp;lt;cr&amp;gt;&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;,
+        &lt;span class="se"&gt;\ &lt;/span&gt;&lt;span class="o"&gt;}&lt;/span&gt;
+
+    colorscheme gruvbox
+    highlight Normal &lt;span class="nv"&gt;ctermbg&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;16&lt;/span&gt;
+    &lt;span class="nb"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;colorcolumn&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;80&lt;/span&gt;
+    highlight colorcolumn &lt;span class="nv"&gt;ctermbg&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;black
+
+
+    &lt;span class="nb"&gt;let&lt;/span&gt; g:NERDTreeWinSize&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;30&lt;/span&gt;
+
+
+    &lt;span class="nb"&gt;let&lt;/span&gt; g:gitgutter_terminal_reports_focus&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;
+    &lt;span class="nb"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;updatetime&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;100&lt;/span&gt; 
+
+    &lt;span class="nb"&gt;let&lt;/span&gt; g:gitgutter_enabled&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Overall, it is working like a charm for me! You may try it yourself if you wish to.&lt;/p&gt;
+&lt;p&gt;That's all for now, thanks for reading!&lt;/p&gt;
+&lt;p&gt;See you in the next post :)&lt;/p&gt;
+&lt;h3&gt;References&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The Ultimate Vim Configuration: &lt;a href="https://github.com/amix/vimrc"&gt;github.com/amix/vimrc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="All"></category><category term="Vim"></category><category term="TextEditor"></category></entry><entry><title>Getting started with Pelican</title><link href="https://misternarayan.github.io/blog/getting-started-with-pelican.html" rel="alternate"></link><published>2020-05-05T15:48:00+05:30</published><updated>2020-05-05T15:48:00+05:30</updated><author><name>Shiva Saxena</name></author><id>tag:misternarayan.github.io,2020-05-05:/blog/getting-started-with-pelican.html</id><summary type="html">&lt;p&gt;My first post using Pelican!&lt;/p&gt;</summary><content type="html">&lt;p&gt;Greetings!&lt;/p&gt;
 &lt;p&gt;Starting a blog is mostly considered with HOW-TOs, detailed descriptions, product reviews, project documentation, monetization, marketing, etc. That means, most of the time people misunderstand the real purpose of blogging.&lt;/p&gt;
 &lt;p&gt;For all those who would like to know why they should start blogging ASAP, kindly refer to &lt;a href="https://summertraining.readthedocs.io/en/latest/blogging.html"&gt;this resource&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I have been blogging for quite a while. And today, I'm starting one with the &lt;a href="https://docs.getpelican.com/en/stable/"&gt;Pelican&lt;/a&gt; and a new one on &lt;a href="https://wordpress.com/"&gt;WordPress&lt;/a&gt;. My previous blogs were also based on WordPress on different domains, but I'm not willing to shift them anywhere else. Therefore, from now on, I'll be maintaining just these 2 blogs. First is here, where I would be sharing my learning in non-tutorial and comparitivey shorter posts. And the other one is on &lt;a href="https://misternarayan.wordpress.com"&gt;MisterNarayan.WordPress.com&lt;/a&gt;, where I would be posting tutorials.&lt;/p&gt;
