@@ -12,7 +12,7 @@
 &lt;p&gt;Second, in &lt;a href="https://misternarayan.wordpress.com/2020/05/09/how-to-generate-super-secure-passwords-with-diceware/"&gt;this blogpost&lt;/a&gt; I recommended using &lt;a href="https://pypi.org/project/diceware/"&gt;Diceware&lt;/a&gt; to create strong, lengthy passphrases for improved security and to remember even 2-3 of such passwords is tedious. Therefore, I would strongly recommend to use &lt;a href="https://keepassxc.org/"&gt;KeePassXC&lt;/a&gt; or any other password manager of your choice and &lt;a href="https://pypi.org/project/diceware/"&gt;Diceware&lt;/a&gt; as your password generator.&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;Any password manager you would like to use, will create an encrypted database and to sync your passwords across all your machines you can upload that database file over any cloudhosting platform such as &lt;a href="https://www.dropbox.com/"&gt;Dropbox&lt;/a&gt; as it is a secure cloud hosting platform and provide file revisions (versioning) or you may go with anyone of your choice.&lt;/p&gt;
-&lt;p&gt;I have also prepared the following YouTube video to increase the reach of audience: https://youtu.be/zeRQNY2GSgE&lt;/p&gt;
+&lt;p&gt;I have also prepared the following YouTube video to increase the reach of audience: &lt;a href="https://youtu.be/zeRQNY2GSgE"&gt;Managing Passwords with KeePassXC&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Alright, that's all for now, thanks for reading!&lt;/p&gt;
 &lt;p&gt;See you in the next post :)&lt;/p&gt;
 &lt;h3&gt;References&lt;/h3&gt;
@@ -51,7 +51,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;I have also prepared the following YouTube video to increase the reach of audience: https://youtu.be/l4SMQxqvuUo&lt;/p&gt;
+&lt;p&gt;I have also prepared the following YouTube video to increase the reach of audience: &lt;a href="https://youtu.be/l4SMQxqvuUo"&gt;The Ultimate Vim Configuration&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Overall, it is working like a charm for me! You may try it yourself if you wish to.&lt;/p&gt;
 &lt;p&gt;That's all for now, thanks for reading!&lt;/p&gt;
 &lt;p&gt;See you in the next post :)&lt;/p&gt;
