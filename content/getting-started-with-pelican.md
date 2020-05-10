@@ -7,8 +7,6 @@ Slug: getting-started-with-pelican
 Authors: Shiva Saxena
 Summary: My first post using Pelican!
 Header_Cover: images/my-post-bg.jpg
-Og_Image: images/my-contact-bg.jpg
-Twitter_Image: images/my-contact-bg.jpg
 
 Greetings!
 

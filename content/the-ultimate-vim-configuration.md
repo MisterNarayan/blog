@@ -7,8 +7,6 @@ Slug: found-out-the-ultimate-vim-configurations
 Authors: Shiva Saxena
 Summary: Are you a Vim user, and searching for some awesome tweaks that would make your text editing more efficient and delightful? If yes, then I would like to share with you the ultimate vim configurations that I found out recently.
 Header_Cover: images/my-post-bg.jpg
-Og_Image: images/my-contact-bg.jpg
-Twitter_Image: images/my-contact-bg.jpg
 
 
 Greetings!
@@ -45,6 +43,8 @@ After installations, I included some of my custom configurations as follows:
 
     let g:gitgutter_enabled=1
 ```
+
+I have also prepared the following YouTube video to increase the reach of audience: [The Ultimate Vim Configuration](https://youtu.be/l4SMQxqvuUo)
 
 Overall, it is working like a charm for me! You may try it yourself if you wish to.
 
