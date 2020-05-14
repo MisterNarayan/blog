@@ -1,4 +1,4 @@
-Title: Getting started with Pelican
+Title: Getting Started With Pelican
 Date: 2020-05-05 15:48
 Modified: 2020-05-05 15:48
 Category: Uncategorized, All
@@ -7,6 +7,7 @@ Slug: getting-started-with-pelican
 Authors: Shiva Saxena
 Summary: My first post using Pelican!
 Header_Cover: images/my-post-bg.jpg
+
 
 Greetings!
 
