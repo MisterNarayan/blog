@@ -130,3 +130,6 @@ dmypy.json
 
 # Don't include output folder of the site as it is been served on gh-pages.
 output/
+
+# Trash
+.Trash/
